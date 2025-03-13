@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #cfc2c8;
+
+        }
+        header{
+            background: #d1a8ba;
+            margin: 10px 20px 5px 25px; /* topo,direita,baixo,esquerda */
+        }
+        main{
+            background: #e4a1be;
+            padding: 20px 10px; /* topo baixo, esquerda direita */
+        }
+        p{
+            color: rgb(112, 36, 102);
+        }
+        #primeiro-paragrafo{
+            color: #943862;
+        }
+        .paragrafo-padrao-classe{
+            color: aquamarine;
+        }
+        footer{
+            background: #b89ea9;
+            color: rgb(139, 56, 248);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titulo Principal</h1>
+    </header>
+    <main>
+        <h2>Titulo Secundário</h2>
+        <p id="primeiro-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa sit non optio. Ullam in doloremque veritatis. Explicabo rerum, quas unde in ea odio ipsum, doloribus laboriosam reiciendis blanditiis illum?</p>
+        <section>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel odit deserunt neque omnis sit. Esse illum minus aspernatur, voluptas voluptate, nulla ad blanditiis temporibus ipsa magnam, accusamus repudiandae dolor!</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel odit deserunt neque omnis sit. Esse illum minus aspernatur, voluptas voluptate, nulla ad blanditiis temporibus ipsa magnam, accusamus repudiandae dolor!</p>
+                <p  class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel odit deserunt neque omnis sit. Esse illum minus aspernatur, voluptas voluptate, nulla ad blanditiis temporibus ipsa magnam, accusamus repudiandae dolor!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>&copy; Todos os direitos reservados</address>
+    </footer>
+</body>
+</html>
